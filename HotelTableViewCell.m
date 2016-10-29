@@ -32,7 +32,11 @@
 
  @return The TVC.
  */
--(instancetype) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier Image:(UIImage *)theImage AndName: (NSString *)theHotelName {
+-(instancetype) initWithStyle:(UITableViewCellStyle)style
+              reuseIdentifier:(NSString *)reuseIdentifier
+                        Image:(UIImage *)theImage
+                      AndName: (NSString *)theHotelName
+{
     self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
   if (self) {
     self.selectionStyle = UITableViewCellSelectionStyleNone;
